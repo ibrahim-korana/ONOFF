@@ -1,0 +1,21 @@
+dependencies:
+  home_8574:
+    component_hash: null
+    source:
+      path: D:\esp_prj\global\home_8574
+      type: local
+    version: 1.0.0
+  home_i2c:
+    component_hash: null
+    source:
+      path: D:\esp_prj\global\home_i2c
+      type: local
+    version: 1.0.0
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.1
+manifest_hash: 4ffcca1f4378bbd5659a46b5202647ff770714cd86ff6c4a3fa977ffd626d611
+target: esp32
+version: 1.0.0
