@@ -13,5 +13,11 @@
         "target/esp32.cfg"
     ],
     "idf.pythonBinPathWin": "d:\\.espressif\\python_env\\idf5.2_py3.11_env\\Scripts\\python.exe",
-    "idf.toolsPathWin": "d:\\.espressif"
+    "idf.toolsPathWin": "d:\\.espressif",
+    "idf.portWin": "COM10",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "exception": "cpp",
+        "cstdlib": "cpp"
+    }
 }

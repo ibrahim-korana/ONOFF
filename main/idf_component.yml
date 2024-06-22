@@ -1,12 +1,17 @@
 ## IDF Component Manager Manifest File
 dependencies:
+  bblanchon/arduinojson: "^7.0.4"
   ## Required IDF version
   idf:
     version: ">=4.1.0"
-  home_i2c:
-    path: D:/esp_prj/global/home_i2c
-  home_8574:
-    path: D:/esp_prj/global/home_8574  
+  master_i2c:
+    path: D:/esp_prj/global/master_i2c/master_i2c
+  dev_8574:
+    path: D:/esp_prj/global/master_i2c/dev_8574  
+  iot_out:
+    path: D:/esp_prj/global/master_i2c/iot_out 
+  iot_button:
+    path: D:/esp_prj/global/master_i2c/iot_button     
   # # Put list of dependencies here
   # # For components maintained by Espressif:
   # component: "~1.0.0"

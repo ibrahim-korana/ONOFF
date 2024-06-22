@@ -1,21 +1,39 @@
 dependencies:
-  home_8574:
+  bblanchon/arduinojson:
+    component_hash: 7ffbe0d932aad0015a6b8586794ec197b1765c3d8af74b72af6055492946a6b0
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 7.0.4
+  dev_8574:
     component_hash: null
     source:
-      path: D:\esp_prj\global\home_8574
-      type: local
-    version: 1.0.0
-  home_i2c:
-    component_hash: null
-    source:
-      path: D:\esp_prj\global\home_i2c
+      path: D:\esp_prj\global\master_i2c\dev_8574
       type: local
     version: 1.0.0
   idf:
     component_hash: null
     source:
       type: idf
-    version: 5.2.1
-manifest_hash: 4ffcca1f4378bbd5659a46b5202647ff770714cd86ff6c4a3fa977ffd626d611
+    version: 5.2.0
+  iot_button:
+    component_hash: null
+    source:
+      path: D:\esp_prj\global\master_i2c\iot_button
+      type: local
+    version: 1.0.0
+  iot_out:
+    component_hash: null
+    source:
+      path: D:\esp_prj\global\master_i2c\iot_out
+      type: local
+    version: 1.0.0
+  master_i2c:
+    component_hash: null
+    source:
+      path: D:\esp_prj\global\master_i2c\master_i2c
+      type: local
+    version: 1.0.0
+manifest_hash: 155e152619e3cdbea16340036fcea81abb9278fd868e60e48126d9783e009607
 target: esp32
 version: 1.0.0
